@@ -10,7 +10,7 @@ body {margin:0;}
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
 }
@@ -162,4 +162,12 @@ img {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
+@media only screen and (max-width:500px) {
+html { 
+ background: url(background.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
