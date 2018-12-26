@@ -33,7 +33,7 @@ body {margin:0;}
 
 .main {
   padding: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
   height: 100%; 
   text-align: center;
 }
@@ -64,7 +64,7 @@ h2{
     transition: all 1.3s ease-out;
     justify-content: center;
     transform-style: preserve-3d;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 .all:hover{
     perspective: 1000px;
@@ -82,8 +82,8 @@ h2{
     opacity: 0;
 }
 .left , .center, .right, .lefter, .righter{
-    width: 200px;
-    height: 150px;
+    width: 15vw;
+    height: 13vw;
     transform-style: preserve-3d;
     border-radius: 10px;
     border:1px solid #fff;
@@ -109,7 +109,7 @@ h2{
     transition: all .3s ease;
     bottom: 0;
     left: 0;
-	font-size: 15px;
+	font-size: 2vw;
 	text-align: center;
     position: absolute;
     will-change: transform;
