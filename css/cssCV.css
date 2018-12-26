@@ -162,7 +162,7 @@ img {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1024px) {
 html { 
  background: url(background.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
