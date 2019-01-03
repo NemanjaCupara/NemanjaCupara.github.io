@@ -13,9 +13,11 @@ body {margin:0;}
   position: relative;
   top: 0;
   width: 100%;
+  font-size: 18px;
 }
 .navbar-left{
 	float: left;
+
 }
 .navbar a {
   float: right;
@@ -24,7 +26,6 @@ body {margin:0;}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5vw;
 }
 .navbar i {
 	float: left;
@@ -33,7 +34,6 @@ body {margin:0;}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5vw;
 }
 .navbar a:hover {
   background: #ddd;
@@ -41,8 +41,8 @@ body {margin:0;}
 }
 
 .main {
-  padding: 5px;
-  margin-top: 10%;
+  padding: 1%;
+  margin-top: 5%;
   height: 100%; 
 }
 .links {
@@ -50,17 +50,51 @@ body {margin:0;}
 	float: left;
 	margin-left: 2%;
 	font-size: 3.5vw;
-	padding: 2%;
+	position: fixed;
 }
 .info{
 	display: block;
-	float: right;
 	color: white;
 	margin-right: 2%;
+	transition: all .3s ease-in-out;
 }
 .info h3{
 	border: 1px solid white;
+	float: right;
 	padding: 5px;
+	margin-top: 5%;
+	margin-right: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 1.5vw;
+}
+.info h4{
+	border: 1px solid white;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 1.5vw;
+}
+.info h5{
+	border: 1px solid white;
+	float: right;
+	margin-top: 25%;
+	margin-right: 0.5%;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 1.5vw;
+}
+.info h6{
+	border: 1px solid white;
+	float: left;
+	padding: 5px;
+	margin-top: 28%;
+	margin-left: 3%;
 	text-align: center;
 	font-weight: bold;
 	font-family: Verdana;
@@ -88,12 +122,12 @@ body {margin:0;}
     background-color: #006699; 
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 2% 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 2vw;
-    margin: 4px 2px;
+    margin: 2% 1%;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     cursor: pointer;

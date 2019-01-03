@@ -5,7 +5,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-body {margin:0;}
+body {
+	margin:5% ;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -32,23 +34,25 @@ body {margin:0;}
 }
 
 .main {
-  padding: 5%;
+  padding: 2%;
   margin-top: 5%;
   height: 100%; 
   text-align: center;
 }
-
+.aboutMe{
+	background-color: #d0dcef;
+	border: 1px solid white;
+	border-radius: 15px;
+}
 h1{
-	font-family: "Times New Roman";
-	font-size: 20px;
+	font-family: "Verdana";
+	font-size: 15px;
 	font-weight: bold;
-	color: white;
+	color: black;
 	margin-top: 50px;
 		
 }
-.h1{
-	color: #3366cc;
-}
+
 h2{
 	font-family: "Times New Roman";
 	font-size: 20px;
@@ -59,7 +63,7 @@ h2{
     display: flex;
     perspective: 10px;
     transform: perspective(300px) rotateX(20deg);
-    will-change:perspective;
+    will-change: perspective;
     perspective-origin: center center;
     transition: all 1.3s ease-out;
     justify-content: center;
@@ -82,8 +86,8 @@ h2{
     opacity: 0;
 }
 .left , .center, .right, .lefter, .righter{
-    width: 15vw;
-    height: 13vw;
+    width: 250px;
+    height: 200px;
     transform-style: preserve-3d;
     border-radius: 10px;
     border:1px solid #fff;
