@@ -9,7 +9,6 @@ html {
 body {
 margin:0;
 display: block;
-overflow: hidden;
 }
 .navbar {
   overflow: hidden;
