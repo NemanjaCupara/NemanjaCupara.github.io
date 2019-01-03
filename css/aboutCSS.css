@@ -5,9 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-body {
-	margin:5% ;
-}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
