@@ -85,7 +85,7 @@ img{
 
 .text {
   color: white;
-  font-size: 13px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,7 +96,7 @@ img{
 }
 h2{
 	color: orange;
-	font-size: 10px;
+	font-size: 20px;
 	text-align: left;
 	font-family: Verdana;
 }
