@@ -38,17 +38,21 @@ overflow: hidden;
 
 .main {
   padding: 20px;
-  margin-top: 5%;
-  
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 100%;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 30px;
+  grid-gap: 50px;
 }
 .grid-item {
   font-size: 30px;
   text-align: center;
+  height: 500px;
+  width: 600px;
 }
 img{
 	object-fit: contain;
