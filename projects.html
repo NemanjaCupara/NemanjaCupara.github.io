@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+	<meta name="viewport" content="width=device-width,initial scale=1"/>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+</head>
+<body>
+<div class="navbar">
+  <a href="cv.html">Home</a>
+  <a href="about.html">Skills</a>
+  <div class="navbar-left"><a href="index.html">Menu</a></div>
+</div>
+
+<div class="main">
+
+	<div class="grid-container">
+  <div class="grid-item"><div class="container">
+  <div class="mySlides fade">
+  <img src="images/rentacar1.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/rentacar2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/rentacar3.png" style="width:100%">
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+  <div class="overlay">
+    <div class="text">
+	<h1>RENT A CAR</h1>
+	<br> <h2>-Web application
+	<br> -Spring Framework
+	<br> -MySql database
+	<br> -JSP
+	<br> -NetBeans 8.2</h2>
+	</div>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+</body>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
