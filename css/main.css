@@ -1600,24 +1600,25 @@ header .header-logo a {
   color: #FFFFFF;
 
 }
-.home-content-tablecell .more .button:hover {
-  border-radius: 20px;
-  background-color: white;
-  color: #034f84;
+.cv{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
 }
 .stateButton{
 	border: 2px solid white;
 	width: 103px;
 	display: inline-block;
 	position: relative;
-	opacity: 0;
-	-moz-transition: all 2s ease-in-out;
-	-o-transition: all 2s ease-in-out;
-	-webkit-transition: all 2s ease-in-out;
-	-ms-transition: all 2s ease-in-out;
-	transition: all 2s ease-in-out;
-	margin-left: 100px;
-	margin-right: 100px;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.stateButton:hover{
+	transform: scale(1.5);
+	z-index: 1;
 }
 
 /* home social-list */
