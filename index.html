@@ -26,6 +26,8 @@
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
 	<script type="text/javascript" src="js/jsText.js"></script>
+	<script type='text/javascript'
+  src='http://code.jquery.com/jquery-1.9.1.js'></script>
 
 	<audio id="my_audio" src="tech1.mp3" loop="loop"></audio>
 	<script>
@@ -38,6 +40,18 @@
 	x.muted = false;
 }
 	</script>
+	<script type='text/javascript'>//<![CDATA[ 
+		$(window).load(function(){
+			$(function() {
+		$(".dwn").click(function(){
+        $(".stateButton").css("opacity", "1");
+		$(".stateButton").css("margin-left", "0");
+		$(".stateButton").css("margin-right", "0");	
+    });
+});
+});//]]>  
+</script>
+
 </head>
 
 <body id="top">
@@ -48,7 +62,7 @@
 
    	<div class="header-logo">
 	      <a href="index.html">Nemanja Cupara</a>
-	   
+		
 	   <div class="sound">
 		<button onclick="enableMute()" type="button" class="btn"><img src="images/mute.png" align="center"></button>
 		<button onclick="disableMute()" type="button" class="btnA"><img src="images/unmute.png" align="center"></button>
@@ -102,14 +116,17 @@
 							<span
 									class="txt-rotate"
 									data-period="1000"
-									data-rotate='[ "Hi, I am Nemanja Cupara", "I am ", "Java Developer", "I hope you do not mind music", "But if yes", "Just mute" ]'></span>
+									data-rotate='[ "Hi, I am Nemanja Cupara", "I am ", "Java Developer" ]'></span>
 				  			</h1>	
 
 				  			<div class="more animate-intro">
-				  				<a class="button stroke" href="inc/NemanjaCupara.pdf" download>
+				  				<div class="dwn"><a class="button stroke">
 				  					Download CV
 				  				</a>
-				  			</div>							
+								</div>
+				  			</div>								
+							<div class="stateButton"><a href="inc/NemanjaCupara.pdf" download><img src="images/srb.png" align="center"></a></div>
+							<div class="stateButton"><a href="inc/NemanjaCuparaENG.pdf" download><img src="images/eng.png" align="center"></a></div>							
 
 			  		</div> <!-- end col-twelve --> 
 		   	</div> <!-- end row --> 

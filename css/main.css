@@ -797,7 +797,7 @@ button.large, .button.large {
 }
 
 button.stroke, .button.stroke {
-  background: transparent !important;
+  background: #034f84;
   border: 3px solid #313131;
   line-height: 4.8rem;
 }
@@ -1287,6 +1287,11 @@ header .header-logo a {
 	border: 2px solid white;
 	border-radius: 50%;
 	transition: .4s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 
 }
 .btnA{
@@ -1611,12 +1616,29 @@ header .header-logo a {
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
 }
-.home-content-tablecell .more .button {
+.home-content-tablecell .more .button{
   border-color: #FFFFFF;
   color: #FFFFFF;
+  
 }
 .home-content-tablecell .more .button:hover {
   border-radius: 20px;
+  background-color: white;
+  color: #034f84;
+}
+.stateButton{
+	border: 2px solid white;
+	width: 103px;
+	display: inline-block;
+	position: relative;
+	opacity: 0;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 /* home social-list */
@@ -1728,6 +1750,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 7rem;
   }
+  .stateButton{
+	width: 80px;
+}
 }
 @media only screen and (max-width: 1024px) {
   .home-content-tablecell h3 {
@@ -1736,6 +1761,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 6rem;
   }
+  .stateButton{
+	width: 80px;
+}
 }
 @media only screen and (max-width: 768px) {
   .home-content-tablecell .row {
@@ -1765,6 +1793,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     top: 24px;
     right: 10px;
   }
+  .stateButton{
+	width: 80px;
+}
 }
 @media only screen and (max-width: 600px) {
   #home {
@@ -1782,6 +1813,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 4.8rem;
   }
+  .stateButton{
+	width: 80px;
+}
 }
 @media only screen and (max-width: 500px) {
   .home-content-tablecell .row {
@@ -1802,6 +1836,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-social-list::before {
     height: 24px;
   }
+  .stateButton{
+	width: 60px;
+}
 }
 @media only screen and (max-width: 400px) {
   #home {
@@ -1818,6 +1855,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 3.6rem;
   }
+  .stateButton{
+	width: 60px;
+}
 }
 
 
