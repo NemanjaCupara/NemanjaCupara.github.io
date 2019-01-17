@@ -1522,20 +1522,7 @@ header .header-logo a {
     background-size: 51px 51px;
   }
 .sound > button{
-	display: inline;
-  width: 15%;
-}
-.sound{
-	margin-top: -60px;
-	margin-left: 80px;
-}
-.btn > img{
-	width: 50%;
-	height: 50%;
-}
-.btnA > img{
-	width: 50%;
-	height: 50%;
+	display: none;
 }
 }
 @media only screen and (max-width: 400px) {
@@ -1740,10 +1727,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 2.1rem;
   }
   .home-content-tablecell h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
   .stateButton{
-	width: 80px;
+	width: 100px;
 }
 }
 @media only screen and (max-width: 1024px) {
@@ -1751,10 +1738,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 2rem;
   }
   .home-content-tablecell h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   .stateButton{
-	width: 80px;
+	width: 90px;
 }
 }
 @media only screen and (max-width: 768px) {
@@ -1765,7 +1752,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.8rem;
   }
   .home-content-tablecell h1 {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
   }
   .home-content-tablecell h1 br {
     display: none;
@@ -1786,7 +1773,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     right: 10px;
   }
   .stateButton{
-	width: 80px;
+	width: 100px;
 }
 }
 @media only screen and (max-width: 600px) {
@@ -1803,10 +1790,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.7rem;
   }
   .home-content-tablecell h1 {
-    font-size: 4.8rem;
+    font-size: 3.8rem;
   }
   .stateButton{
-	width: 80px;
+	width: 100px;
 }
 }
 @media only screen and (max-width: 500px) {
@@ -1817,7 +1804,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.5rem;
   }
   .home-content-tablecell h1 {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
   }
 
   .home-social-list {
@@ -1829,7 +1816,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     height: 24px;
   }
   .stateButton{
-	width: 60px;
+	width: 80px;
 }
 }
 @media only screen and (max-width: 400px) {
@@ -1845,10 +1832,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.4rem;
   }
   .home-content-tablecell h1 {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
   .stateButton{
-	width: 60px;
+	width: 80px;
 }
 }
 
